@@ -2595,13 +2595,14 @@ section{padding:68px 0}
 <style id="ai-seo-answer-styles">
 .seo-answers{padding:40px 0 62px}
 .seo-answer-grid{display:grid;grid-template-columns:1fr 1fr;gap:12px}
-.seo-answer-grid details{border:1px solid var(--line);border-radius:10px;background:rgba(15,23,42,.72);padding:0 18px}
-.seo-answer-grid summary{cursor:pointer;list-style:none;padding:16px 24px 16px 0;font-weight:700;color:var(--text-soft);position:relative}
+.seo-answer-grid details{border:1px solid #dbe4f0;border-radius:14px;background:#ffffff;padding:0 20px;box-shadow:0 8px 24px rgba(15,23,42,.08);transition:border-color .2s ease,box-shadow .2s ease,transform .2s ease}
+.seo-answer-grid details:hover{border-color:#bfdbfe;box-shadow:0 12px 30px rgba(37,99,235,.12);transform:translateY(-1px)}
+.seo-answer-grid summary{cursor:pointer;list-style:none;padding:20px 32px 20px 0;font-weight:700;color:#0f172a;position:relative;line-height:1.35}
 .seo-answer-grid summary::-webkit-details-marker{display:none}
-.seo-answer-grid summary:after{content:"+";position:absolute;right:0;top:14px;color:var(--blue-light);font-size:1.1rem}
+.seo-answer-grid summary:after{content:"+";position:absolute;right:0;top:17px;color:#2563eb;font-size:1.35rem;font-weight:700}
 .seo-answer-grid details[open] summary:after{content:"−"}
-.seo-answer-grid details p{color:var(--muted);font-size:.94rem;line-height:1.65;padding:0 0 17px}
-.seo-answer-grid a{color:var(--blue-light);font-weight:600}
+.seo-answer-grid details p{color:#475569;font-size:.94rem;line-height:1.7;padding:0 0 20px;margin:0}
+.seo-answer-grid a{color:#2563eb;font-weight:600}
 @media(max-width:760px){.seo-answer-grid{grid-template-columns:1fr}.seo-answers{padding:32px 0 50px}}
 </style>
 </head>
@@ -2918,7 +2919,7 @@ section{padding:68px 0}
 
 
 <section id="platform-questions" class="seo-answers" aria-labelledby="platform-questions-title"><div class="wrap">
-  <div class="head"><div><div class="eyebrow">Platform Answers</div><h2 id="platform-questions-title">DERSec, in plain terms.</h2></div><p>Concise answers for teams evaluating DER interoperability, validation, and OT cybersecurity.</p></div>
+  <div class="head"><div><div class="eyebrow">Platform Answers</div><h2 id="platform-questions-title">DERSec, in plain terms.</h2></div><p></p></div>
   <div class="seo-answer-grid">
     <details open><summary>What is the DERSec platform?</summary><p>DERSec is an end-to-end platform for distributed energy resource interoperability and OT cybersecurity. It connects DER assets, models expected behavior, validates interoperability and performance, and secures operational fleets using shared device and protocol context.</p></details>
     <details><summary>How does DERSec cover the DER lifecycle?</summary><p><a href="https://dersec.io/products/#dersync">DERSync</a> connects and normalizes DERs, <a href="https://dersec.io/products/#dersim">DERSim</a> models device and fleet behavior, <a href="https://dersec.io/products/#labtest-pro">LabTest Pro</a> validates communications and performance, and <a href="https://dersec.io/products/#dersec-sentry">Sentry</a> applies that context to OT cybersecurity.</p></details>
